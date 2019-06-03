@@ -1,0 +1,84 @@
+            {
+            "mode": "NULLABLE"
+            "name": "elements"
+            "type": "REPEATED"
+                    {
+                    "mode": "NULLABLE"
+                    "name": "totalShareStatistics"
+                    "type": "RECORD"
+                    "fields": [
+                        {
+                        "mode": "NULLABLE"
+                        "name": "shareCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "uniqueImpressionsCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "clickCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "engagement"
+                        "type": "FLOAT"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "shareMentionsCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "likeCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "impressionCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "commentMentionsCount"
+                        "type": "INTEGER"
+                        }
+                        {
+                        "mode": "NULLABLE"
+                        "name": "commentCount"
+                        "type": "INTEGER"
+                        }
+                    ]
+                    }
+                {
+                "mode": "NULLABLE"
+                "name": "organizationalEntity"
+                "type": "STRING"
+                }
+        }
+                {
+                "mode": "NULLABLE"
+                "name": "paging"
+                "type": "RECORD"
+                "fields": [
+                    {
+                    "mode": "NULLABLE"
+                    "name": "count"
+                    "type": "INTEGER"
+                    }
+                    {
+                    "mode": "NULLABLE"
+                    "name": "start"
+                    "type": "INTEGER"
+                    }
+                    {
+                    "mode": "NULLABLE"
+                    "name": "links"
+                    "type": "REPEATED"
+                }
+                ]
+                }
