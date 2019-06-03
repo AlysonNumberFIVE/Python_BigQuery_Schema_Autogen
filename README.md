@@ -73,7 +73,6 @@ schema = [
 A lot of the parsing will be handled for basic fields, but the resulting Python schema must be looked over for inconsisencies.
 
 
-- Brutally hacked together on a Friday afternoon by AlysonNgonyama
-
+- Brutally hacked together on a Friday afternoon by AlysonBelle (or AlysonNgonyama, depending on who's asking).
 
 
