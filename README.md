@@ -9,7 +9,7 @@ It's not completely full proof as support for key/value pairs in JSON files wher
 JSON input file
 ```
 cat testcase/test.json
-{"elements_0_role": "ADMINISTRATOR", "elements_0_roleAssignee": "urn:li:person:AFnCO-Sd9a", "elements_0_state": "APPROVED", "elements_0_organizationalTarget": "dotmodus", "paging_count": 10, "paging_start": 0, "fake_field": {"name": "Sephiroth", "age": 99}, "final_record": 42 }
+{"elements_0_role": "PERSON", "elements_0_roleAssignee": "urn:li:linkedinapi", "elements_0_state": "APPR", "elements_0_organizationalTarget": "company", "paging_count": 10, "paging_start": 0, "fake_field": {"name": "Sephiroth", "age": 99}, "final_record": 42 }
 ```
 Output :
 ```
