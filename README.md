@@ -75,5 +75,3 @@ A lot of the parsing will be handled for basic fields, but the resulting Python 
 
 - Brutally hacked together on a Friday afternoon by AlysonBelle (or AlysonNgonyama, depending on who's asking).
 alyson.belle7@gmail.com
-
-MIT License
